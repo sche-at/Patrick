@@ -39,9 +39,7 @@ const Subject = (props) => {
 
 const SubjectDesc = (props) => {
   return (
-    <View>
       <Text style={styles.subdesc}>{props.subdesc}</Text>
-    </View>
   );
 };
 const Units = (props) => {
